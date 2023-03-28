@@ -1,0 +1,236 @@
+@media screen and (max-width:1024px) and (min-width:766px){
+.device:first-child{
+  margin-left:20px;
+}
+.device:last-child{
+  margin-right:20px;
+}
+}
+
+@media screen and (max-width:767px){
+  .header-container{
+    padding:25px 15px;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .header-logo{
+    width: 104px;
+  }
+  .header-list{
+    display: none;
+  }
+  .header-gnav-btn{
+    display: block;
+    width: 30px;
+    height:100%;
+    position:relative;
+  }
+  .gnav-bar{
+    position: absolute;
+    left:0;
+    top:50%;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+  }
+  .gnav-bar.m-top{
+    width: 22px;
+    transform: translateY(-11px);
+  }
+  .gnav-bar.m-bottom{
+    width: 23px;
+    transform: translateY(11px);
+  }
+  .fv{
+    background: url(../img/mv_bg_sp.png) no-repeat;
+    background-position:bottom;
+    background-size:contain;
+    padding-top:122px;
+
+  }
+  .fv-container{
+    padding-right:25px;
+    padding-left:25px;
+  }
+  .fv-main{
+    display:block;
+  }
+  .fvsection-title{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .fv-img{
+    width: 100%;
+  }
+  .cv-area{
+    width: 100%;
+  }
+  .fvsection-detail{
+    text-align: center;
+  }
+  .btn-section{
+    justify-content: center;
+  }
+  .scroll-icon{
+    padding-top:37px;
+    padding-bottom:40px;
+  }
+  .about-container{
+    flex-direction: column-reverse;
+    padding:120px 25px 100px;
+  }
+  .about-img{
+    width: 100%;
+  }
+  .text-area{
+    width: 100%;
+    padding-top:0px;
+    padding-bottom:50px;
+  }
+  .title-about{
+    padding-bottom:12px;
+  }
+  .top-message{
+    font-size: 2rem;
+  }
+  .about-text{
+    font-size: 1.4rem;
+  }
+  .feature{
+    padding:240px 40px 100px;
+  }
+  .feature-container>.title-section{
+    padding-bottom:70px;
+    padding-top:0px;
+  }
+  /*.title-section{
+    padding-top:120px;
+  }*/
+  .title-section p{
+    padding-top:10px;
+  }
+  .feature-item{
+    display: block;
+  }
+  .feature-img{
+    width: 100%;
+  }
+  .feature-text{
+    width: 100%;
+  }
+  .detail{
+    font-size: 1.4rem;
+  }
+  .feature-item:not(:last-child){
+    margin-bottom: 91px;
+  }
+  .feature-item:last-child{
+    padding-bottom: 0px;
+  }
+  .faq::before{
+    content: " ";
+    height: 120px;
+    display: block;
+    visibility: hidden;
+  }
+  .faq-container{
+    padding-left:40px;
+    padding-right:40px;
+  }
+  .faq-container>.title-section{
+    padding-bottom:58px;
+  }
+  .answer{
+    font-size: 1.4rem;
+    padding-bottom:29px;
+  }
+  .faq-bottom{
+    padding-bottom:30px;
+    margin-top:30px;
+  }
+  .question{
+    height:22px;
+  }
+ .question::before,
+ .question::after{
+    content: "";
+    width:20px;
+    height:2px;
+    position: absolute;
+    background-color: #fff;
+    top:50%;
+    right:0;
+    transform: translateY(-50%);
+  }
+  .question::after{
+    transform: translateY(-50%) rotate(90deg);
+  }
+  .device-section>.title-section{
+    padding-bottom:70px;
+    padding-top:20px;
+  }
+  .device-section{
+    padding-bottom:120px;
+  }
+  .devices-section{
+    display:block;
+  }
+  .device{
+    margin:0 auto 30px;
+    width: 250px;
+    height:190px;
+  }
+  .background-pink::after{
+    content: "";
+    display: block;
+    height: 610px;
+    width: 100%;
+    position: absolute;
+    background-color: #FFF8F8;
+    top: 70px;
+    z-index: -1;
+}
+  .btm-container{
+    display: block;
+    width: 100%;
+    padding:116px 25px 100px;
+    box-sizing: border-box;
+  }
+  .btm-img{
+    width:100%;
+    padding-top:30px;
+  }
+  .cvbtm-img img{
+    width: 104px;
+  }
+  .cvbtm-area{
+    margin:0 auto;
+  }
+  .cvbtm-area p{
+    padding-bottom:60px;
+  }
+  .footer-container{
+    width: 100%;
+    box-sizing: border-box;
+    padding:70px 70px 23px;
+  }
+  .footer-list{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    row-gap:23px;
+  }
+  .right-bd::after{
+    display: none;
+  }
+  .footer-list li{
+    text-align: center;
+  }
+  .footer-copyright{
+    text-align: center;
+    width:100%;
+    padding-top:70px;
+  }
+}
